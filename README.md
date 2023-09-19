@@ -1,5 +1,5 @@
 # sctp_assignment
 
-## Hi, I am Richie
+## Hi, I am Richie.
 
-### Hello, dumbass rong
+This is my assignment for SCTP cloud
