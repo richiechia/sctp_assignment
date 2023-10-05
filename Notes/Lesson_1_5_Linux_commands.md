@@ -1,3 +1,7 @@
+## Linux command cheatsheet
+
+https://phoenixnap.com/kb/wp-content/uploads/2023/05/linux-commands-cheat-sheet-pdf.pdf
+
 ## How to create use the chmod in linux, if faced with 0555 permissions error
 
 Before being able to use chmod 400 on richie_linux.pem
