@@ -13,3 +13,5 @@ What is the difference between multi-threading and multi-processing?
 | Multi-Processing | Multi-threading |
 | -------------------------------------|-------------------------------------------|
 | Processes run on multiple CPU Cores | Multiple threads can be in a single process|
+| Each process is independent of each other | Multiple threads share the same data and memory|
+| Resource intensive | Resource efficiency|
