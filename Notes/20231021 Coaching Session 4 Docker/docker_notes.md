@@ -5,7 +5,7 @@ docker --version
 docker 
 
 # Build the docker image
-docker build -t flask-app (name of app)
+docker build . -t flask-app (name of app)
 
 # First -p mapping is localhost:8080, 2nd mapping is the docker host 8080
 docker run -p 8080:8080 flask-app #-p is referring to port mapping. Mapping host port to docker port
