@@ -39,3 +39,10 @@ docker compose down
 docker rm -f $(docker ps -aq) # remove all containers
 docker volume prune # remove dangling volumes
 docker network prune # remove dangling networks
+
+
+
+## Further self learning
+docker inspect
+docker run -itd --rm -p 80:80 --name jane nginx
+ docker run -itd --rm --network asgard --name odin  busybox
