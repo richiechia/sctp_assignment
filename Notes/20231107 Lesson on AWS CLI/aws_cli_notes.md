@@ -1,5 +1,7 @@
 # Notes
 
+https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
+
 aws configure --profile <profile_name>
 aws s3 ls --profile <profile_name>
 
