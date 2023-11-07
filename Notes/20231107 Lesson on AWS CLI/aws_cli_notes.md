@@ -20,6 +20,11 @@ output = json
 region = ap-southeast-1
 output = json
 
+| CREDENTIALS | CONFIG | 
+| ------------| -------|
+|[default] | [profile personal] |
+|----------| ------------|
+
 
 aws ec2 describe-instances --instance-id i-015aebd56e0919e04 --query Reservations[].Instances[].KeyName
 aws ec2 describe-instances --query Reservations[].Instances[?InstanceId=='i-081234966d0aaf9b4'].KeyName[]
