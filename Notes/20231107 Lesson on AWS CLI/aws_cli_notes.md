@@ -1,7 +1,5 @@
 # Notes
 
-https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
-
 aws configure --profile <profile_name>
 aws s3 ls --profile <profile_name>
 
@@ -30,3 +28,10 @@ output = json
 
 aws ec2 describe-instances --instance-id i-015aebd56e0919e04 --query Reservations[].Instances[].KeyName
 aws ec2 describe-instances --query Reservations[].Instances[?InstanceId=='i-081234966d0aaf9b4'].KeyName[]
+
+
+# Terraform Installation
+https://developer.hashicorp.com/terraform/downloads
+
+Windows: Use chocolately, which is a windows package manager 
+Linux: Install using the command terminal
