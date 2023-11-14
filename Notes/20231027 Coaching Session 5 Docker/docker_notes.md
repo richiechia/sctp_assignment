@@ -45,4 +45,5 @@ docker network prune # remove dangling networks
 ## Further self learning
 docker inspect
 docker run -itd --rm -p 80:80 --name jane nginx
- docker run -itd --rm --network asgard --name odin  busybox
+docker run -itd --rm --network asgard --name odin  busybox
+docker exec -it <containerID> sh
