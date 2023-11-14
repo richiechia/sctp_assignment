@@ -8,7 +8,8 @@ Amazon Neptune supports graph modelling, makes it easy to express and navigate c
 Amazon RDS is standard relational database that can be used for many common RDS databases such as MySQL, PostgreSQL, MariaDB etc. Multiple database engines, it has good security as it provides AWS Key management services, can be done together with monitoring logging and scability.
 
 
-Amazon DynamoDB is the noSQL database, it has automatic scaling, security and have low latency performance. There can be partitions done on the DynamoDB for replication
+Amazon DynamoDB is the noSQL database, it has automatic scaling, security and have low latency performance. There can be partitions done on the DynamoDB.
+It can be easily replicated or exported to S3 where necessary.
 
 Option #2
 richie-database-instance-1
