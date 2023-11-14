@@ -1,3 +1,2 @@
- terraform/example_1/.terraform/
-
- **/.terraform
+# Directories
+.terraform/
