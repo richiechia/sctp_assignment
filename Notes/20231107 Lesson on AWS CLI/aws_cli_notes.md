@@ -1,4 +1,5 @@
 # Notes
+To get the access and secret key, you'll have to create an IAM user on the IAM platform. FOllowing which, you can generate an access key and secret key.
 
 aws configure --profile <profile_name>
 aws s3 ls --profile <profile_name>
