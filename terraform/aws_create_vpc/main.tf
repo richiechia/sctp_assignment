@@ -43,16 +43,21 @@ module "private_subnet" {
   subnet_name = "${local.name_of_vpc}-${each.key}"
 }
 
-resource "aws_route_table" "main" {
+resource "aws_route_table" "public" {
   vpc_id = aws_vpc.my_vpc.id
 
-  for_each = local.route_table_values
+  for_each = local.public_route_table_values
   
+  route {
+    cidr_block = each.value.cidr_block_range
+    gateway_id = aws_internet_gateway.gw.id
+  }
 
   tags = {
     Name = "${local.name_of_vpc}-${each.key}"
   }
 }
+
 
 
 # resource "aws_nat_gateway" "public_nat" {
