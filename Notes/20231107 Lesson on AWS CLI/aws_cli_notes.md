@@ -10,13 +10,22 @@ Pre-configuration.
 Location of the credentials and config files are in
 
 Windows: ./Users/{username}/.aws/credentials or configs
+
+Linux: ~/.aws/config and ~/.aws/credentials
+
 Within credentials
+
 [default]
+
 [personal]
+
 Within config
+
 [default]
+
 region = ap-southeast-1
 output = json
+
 [profile personal]
 region = ap-southeast-1
 output = json
@@ -28,11 +37,13 @@ output = json
 
 
 aws ec2 describe-instances --instance-id i-015aebd56e0919e04 --query Reservations[].Instances[].KeyName
+
 aws ec2 describe-instances --query Reservations[].Instances[?InstanceId=='i-081234966d0aaf9b4'].KeyName[]
 
 
 # Terraform Installation
 https://developer.hashicorp.com/terraform/downloads
 
-Windows: Use chocolately, which is a windows package manager 
+Windows: Use chocolately, which is a windows package manager
+
 Linux: Install using the command terminal
