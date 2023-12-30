@@ -11,5 +11,5 @@ variable "bucket_tags" {
 
 variable "cloudfront_name" {
     description = "The name of the cloudfront"
-    type = "string"
+    type = string
 }
